@@ -113,8 +113,12 @@
 
 
 <!------plugins--->
-<gap:plugin name="GenericPush"/>
-    <gap:plugin name="com.phonegap.plugins.childbrowser" />
+<gap:plugin name="com.adobe.plugins.pushplugin" />
+<gap:plugin name="com.phonegap.plugins.childbrowser" />
+
+
+
+
 <!----end plugins---->
 
 
@@ -124,7 +128,7 @@
 
 
 <feature name="http://api.phonegap.com/1.0/network"/>
-<gap:plugin name="com.adobe.plugins.pushplugin" />
+
 
 <!-- to enable individual permissions use the following examples --
 <feature name="http://api.phonegap.com/1.0/battery"/>
